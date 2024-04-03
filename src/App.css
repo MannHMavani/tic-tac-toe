@@ -1,0 +1,77 @@
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vw;
+  flex-direction: column;
+}
+.water-background {
+  background-color: #4b495f;
+}
+.game-heading {
+  padding: 5px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 40px;
+}
+.square-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.move-detection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5vw;
+  width: 400px;
+}
+.playbutton {
+  font-weight: 700;
+  border: none;
+  background-color: #e4ca56;
+  font-size: 60px;
+  cursor: pointer;
+  margin-top: 40vh;
+  margin-bottom: 20px;
+  padding: 6px 10px;
+  border-radius: 5px;
+  outline: none;
+}
+.finished-state {
+  padding: 0;
+  margin: 0;
+  margin-top: 5vh;
+  font-size: 30px;
+  text-align: center;
+}
+.left,
+.right {
+  height: 30px;
+  width: 120px;
+  background-color: #4b495f;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  padding-top: 7px;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.player-back1 {
+  background-color: #dd7f9f;
+}
+.player-back2 {
+  background-color: #3fa7f0;
+}
+.reset-btn {
+  font-weight: 700;
+  border: none;
+  background-color: #e4ca56;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 10px;
+}
